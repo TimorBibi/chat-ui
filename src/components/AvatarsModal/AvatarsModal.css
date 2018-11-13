@@ -1,0 +1,33 @@
+
+.AvatarButton {
+    float: left;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFE175;
+    height: 60px;
+    width: 60px;
+    margin-left: 8px;
+}
+
+.spaced {
+    margin:7px;
+}
+
+#choosenAvatar {
+    width: 180px;
+    height: 190px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.avatarGrid {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+    grid-gap: 15px;
+}
+
+#saveButton {
+    background-color: #FFE175;
+}
